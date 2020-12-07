@@ -1,0 +1,29 @@
+body{
+    margin: 0 ;
+}
+.one{
+    background: url('../img/bg.jpg') center/cover;
+    width: 100%;
+    height: 50vh; 
+}
+.two{
+    background: url('../img/bg2.jpg') center/cover;
+    width: 100%;
+    height: 50vh;
+}
+.three{
+    background: url('../img/bg3.jpg') center/cover;
+    width: 100%;
+    height: 50vh;
+}
+.carousel{
+    padding-top: 50px;
+}
+.img-group img{
+    width: 100px;
+    transition: 0.5s;
+}
+.img-group img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
